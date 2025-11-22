@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="tech.huqi.quicknote">
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -12,6 +13,7 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
+        tools:node="replace"
         android:name=".QuickNoteApplication"
         android:allowBackup="true"
         android:icon="@drawable/ic_app"

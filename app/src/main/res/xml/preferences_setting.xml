@@ -47,7 +47,7 @@
                 android:data="http://www.android.com" />
         </PreferenceScreen>
         <Preference
-            android:icon="@drawable/ic_high_praise_24dp"
+            android:icon="@drawable/ic_recommend_24dp"
             android:key="@string/preference_key_high_praise"
             android:summary="@string/summary_preference_high_praise"
             android:title="@string/title_preference_high_praise" />
